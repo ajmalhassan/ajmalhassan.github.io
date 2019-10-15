@@ -1,0 +1,120 @@
+nav ul a,
+nav .brand-logo {
+  color: #000;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #000;
+}
+
+.parallax-container {
+  min-height: 300px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* custom css below this line by Ajmal Hassan*/
+
+.myname{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.c-brand-size{
+  font-size: 21px !important;
+  font-weight: 600 !important;
+}
+
+nav{
+  box-shadow: none !important;
+}
+
+.c-pad{
+  padding: 20px 20px 20px 20px !important;
+}
+
+html, body, div.home {
+   width:100% !important; 
+   height:100% !important;
+   margin:0 !important;  
+}
+
+div.content{
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.c-chevron-size{
+  font-size: 27px;
+}
+
+div{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.c-title-size{
+  font-weight: 300;
+}
+
+.media-icon{
+  color: white !important;
+  font-size: 30px;
+}
+
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.c-animate {
+  animation-name: scroll;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
